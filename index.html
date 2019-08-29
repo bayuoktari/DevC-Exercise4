@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Exercise 4</title>
-</head>
-<body>
-    <center>
-        <h1>Final Project</h1>
-    </center>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Final Project | The Clarity</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+            <a class="navbar-brand" href="#">THE CLARITY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="navbar-nav ml-auto">
+                <a href="#" class="nav-item nav-link">Home</a>
+                <a href="/about.html" class="nav-item nav-link">About</a>
+                <a href="/gallery.html" class="nav-item nav-link">Our Service</a>
+                <a href="#modalContact" class="nav-item nav-link" data-toggle="modal" data-target="#modalContact">Contact Us</a>
+              </div>
+            </div>
+      </div>
+    </nav>
+    <!-- End Of Navbar -->
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-jumbotron" data-aos="fade-up" data-aos-once="true">
+          <h1 class="display-5">A Workspace for Every Needs</h1>
+          <p class="lead">Available in Every Day and Every Time</p>
+          <a href="#modalContact" class="button-border" data-toggle="modal" data-target="#modalContact">Contact Us</a>
+        </div>
+    </div>
+    <!-- End Of Jumbotron -->
+    <!-- Section About -->
+    <div class="section-about">
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <img src="/img/andrew-neel-ute2XAFQU2I-unsplash.jpg" class="img-fluid img-mobile" data-aos="fade-left" data-aos-once="true">
+        </div>
+        <div class="col-sm-7">
+          <div class="about-info" data-aos="fade-right" data-aos-once="true">
+            <h3>What is THE CLARITY</h3>
+            <p>THE CLARITY is an ecosystem that provides you with enabling platforms and services that helps foster your businesses or individual growth. In THE CLARITY you will get Comfortable, Cozy and Convenience working space.</p>
+            <a href="/about.html" class="button-border-black">About Us</a>
+
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- About -->
+    <!-- Office Solution -->
+    <div class="container solution-section">
+      <h3>Space For Your Office Solution</h3>
+        <div class="card-columns">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
+              <img src="/img/Card1.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Private Office</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, maiores. Incidunt expedita ducimus nisi sit eligendi nostrum repellat unde, aperiam amet, quae laborum asperiores cum. Tenetur aut repudiandae a velit et corporis ducimus sit laborum, adipisci ea porro nesciunt pariatur necessitatibus perferendis earum.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#">See Our Office Area</a>
+              </div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
+              <img src="/img/card-2.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Meeting Room</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugiat molestiae, perferendis dolor quia nemo dolorem inventore eius cupiditate doloremque laborum quisquam dolore temporibus ipsa ipsam quam qui dicta tenetur, reiciendis corrupti alias odit rerum suscipit! Nobis, in eum sint incidunt distinctio id?</p>
+              </div>
+              <div class="card-footer">
+                <a href="#">See Our Meeting Room</a>
+              </div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="300" data-aos-once="true"> 
+              <img src="/img/card3.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Event Area</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima laboriosam rerum obcaecati, distinctio sunt. Maxime vitae modi eos in, rem harum, et repellat quos quaerat natus adipisci, eligendi illo distinctio. Quisquam neque minima inventore dolor illum? Aliquid ab optio quidem libero cupiditate!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#">See Our Event Area</a>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- End Off Solution -->
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Contact Us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="https://formcarry.com/s/Uzw_JLnS47r" method="POST" />
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Name : </label>
+              <input type="text" class="form-control" name="name">
+            </div>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Email : </label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" name="message"></textarea>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <input class="btn btn-primary" type="submit" value="Send">
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer>
+      <p align="center">Copyright © 2019 THE CLARITY<br/>
+          Design by Bayu Oktari</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
